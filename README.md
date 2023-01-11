@@ -36,12 +36,12 @@ No sistema, temos informações que se remetem a iniciação do projeto, sendo e
 
 ### __Variáveis de Banco de Dados__:
 O sistema faz uso de um banco de dados PostgreSQL para o armazenamento dos dados cadastrados, e para a inicialização e utilização deste banco, é necessário passar as variáveis:
-- __DB_USER__: Indentifica o usuário a ser utilizado no banco de dados, certifique-se que este usuário possui permissões do mais alto privilégio. Possui como padrão o valor "postgres";
-- __DB_PASS__: Senha para realizar o acesso do usuário descrito anteriormente. Valor Padrão é "root1234";
-- __DB_HOST__: Identifica o local aonde o banco de dados está. Valor padrão é "localhost";
-- __DB_PORT__: Identifica a porta a qual o banco de dados foi instalado. Valor padrão é "5432";
-- __DB_NAME__: Identifica o nome do banco de dados criado. Valor padrão é "database";
-- __DB_SCHEMA__: Identifica o *schema* ou esquema do banco de dados. Valor padrão é "public".
+- __DB_USER__: Identifica o usuário a ser utilizado no banco de dados, certifique-se que este usuário possui permissões do mais alto privilégio. Exemplo: "postgres";
+- __DB_PASS__: Senha para realizar o acesso do usuário descrito anteriormente. Exemplo: "swge4321";
+- __DB_HOST__: Identifica o local aonde o banco de dados está. Exemplo: "localhost";
+- __DB_PORT__: Identifica a porta a qual o banco de dados foi instalado. Exemplo: "5432";
+- __DB_NAME__: Identifica o nome do banco de dados criado. Exemplo: "database";
+- __DB_SCHEMA__: Identifica o *schema* ou esquema do banco de dados. Exemplo: "public".
 
 ### __Variáveis das Credenciais de Serviços Externos__:
 Umas das funcionalidades do sistema é a do *Login* Social via os serviços GitHub e Google, onde é coletado informações como nome, e-mail, foto e o id do usuário dentro do serviço. As variáveis para utilizar o *login* social são;
@@ -76,6 +76,8 @@ Como requisito no sistema, a plataforma faz a gestão de pagamentos de inscriç�
 - __SSL_PASS__: Senha salva na geração do certificado, utilizado durante a criação do cabeçalho de requisição para os pagamentos;
 - __PIX_KEY__: Chave PIX da Instituição ou pessoa a qual receberá os valores da cobranças, em ambiente de produção é necessário essa chave estar cadastrada no PagSeguro;
 - __PIX_NAME__: Nome da Instituição ou pessoa a qual receberá os valores da cobranças.
+
+obs: As URLs de links e tutoriais do PagSeguro são equivalentes a versão disponibilizada em dezembro de 2022. Caso algum link esteja fora do AR é necessário pesquisar a nova URL no site da pagseguro.
 
 #### __PAYPAL__:
 Para um entendimento melhor das funcionalidades utilizadas pelo PayPal, a documentação está centralizada [aqui](https://developer.paypal.com/api/rest/). As variáveis que é utilizada no sistema para o pagamento via PayPal são:
