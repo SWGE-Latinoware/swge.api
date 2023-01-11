@@ -95,7 +95,7 @@ Caso tenha a necessidade ou curiosidade de adicionar a metodologia DevOps de Int
 - __$IMG_TEST__: URL do diretório de arquivos para armazenar as imagens do projeto quando o ciclo está em desenvolvimento;
 - __$IMG_PRO__: URL do diretório de arquivos para armazenar as imagens do projeto quando o ciclo está em produção.
 
-### Colaboradores
+## Colaboradores
 <a href="https://github.com/ta-iot/swge.api/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=ta-iot/swge.api" />
 </a>
