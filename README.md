@@ -77,7 +77,7 @@ Como requisito no sistema, a plataforma faz a gestão de pagamentos de inscriç�
 - __PIX_KEY__: Chave PIX da Instituição ou pessoa a qual receberá os valores da cobranças, em ambiente de produção é necessário essa chave estar cadastrada no PagSeguro;
 - __PIX_NAME__: Nome da Instituição ou pessoa a qual receberá os valores da cobranças.
 
-obs: As URLs de links e tutoriais do PagSeguro são equivalentes a versão disponibilizada em dezembro de 2022. Caso algum link esteja fora do AR é necessário pesquisar a nova URL no site da pagseguro.
+##### obs: As URLs de links e tutoriais do PagSeguro são equivalentes a versão disponibilizada em novembro de 2022. Caso algum link esteja fora do AR é necessário pesquisar a nova URL no site da pagseguro.
 
 #### __PAYPAL__:
 Para um entendimento melhor das funcionalidades utilizadas pelo PayPal, a documentação está centralizada [aqui](https://developer.paypal.com/api/rest/). As variáveis que é utilizada no sistema para o pagamento via PayPal são:
