@@ -96,11 +96,9 @@ Caso tenha a necessidade ou curiosidade de adicionar a metodologia DevOps de Int
 - __$IMG_PRO__: URL do diretório de arquivos para armazenar as imagens do projeto quando o ciclo está em produção.
 
 ### Colaboradores
-<a href = "https://github.com/Tanu-N-Prabhu/Python/graphs/contributors">
-  <img src = "https://contrib.rocks/image?repo = ta-iot/swge.api"/>
+<a href="https://github.com/ta-iot/swge.api/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ta-iot/swge.api" />
 </a>
-
-Made with [contributors-img](https://contrib.rocks).
 
 [^1]: Ambiente de teste a qual não reconhece a cobrança como uma cobrança real, não sendo feito a dedução do valor na conta. Para esses ambientes, ambas as APIs fornecem contas ou cartões de teste para a simulação. O PayPal disponibiliza contas de teste que possuem cartões atrelado a conta, é possível saber essas contas atráves deste [link](https://developer.paypal.com/dashboard/accounts), onde é apresentado duas contas de teste, sendo uma o comerciante e outra o cliente(a que deve ser usada). Já para o PagSeguro neste [link](https://dev.pagseguro.uol.com.br/reference/testing-cards) possui cartões de teste para a realização de cobranças de teste.
 [^2]: Ambiente de uso real, onde todas os valores das cobranças vão ser deduzidas da conta e colocadas na conta de recebimento.
