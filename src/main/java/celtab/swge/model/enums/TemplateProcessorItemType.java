@@ -1,0 +1,21 @@
+package celtab.swge.model.enums;
+
+public enum TemplateProcessorItemType {
+    RANDOM_URL,
+    TEMP_PASSWORD,
+    FRONTEND_ADDRESS,
+    IMAGE_TYPE,
+    USER_NAME,
+    EDITION_NAME,
+    EDITION_YEAR,
+    EDITION_LOCATION,
+    EDITION_LOGO,
+    EDITION_LOGO_WHITE,
+    TRACK_NAME,
+    TRACK_INITIAL_DATE,
+    TRACK_FINAL_DATE,
+    ACTIVITY_NAME,
+    ACTIVITY_WORKLOAD,
+    LOGO_WIDTH,
+    LOGO_WHITE_WIDTH
+}

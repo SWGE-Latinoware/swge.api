@@ -1,0 +1,91 @@
+image: maven:3-openjdk-11
+
+stages:
+  - build
+  - test
+  - code analysis
+  - package
+  - deploy_test
+  - deploy_prod
+
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
+build:
+  stage: build
+  script: mvn compile
+  artifacts:
+    expire_in: 10 mins
+    paths:
+      - target
+
+test:
+  stage: test
+  script: mvn test
+  allow_failure: true
+  artifacts:
+    paths:
+      - target/site/jacoco/jacoco.xml
+      - target/surefire-reports/TEST-*.xml
+    reports:
+      junit:
+        - target/surefire-reports/TEST-*.xml
+
+sonarqube analysis:
+  stage: code analysis
+  allow_failure: true
+  only:
+    - develop
+  script:
+    - mvn sonar:sonar
+      -DskipTests=true
+      -Drevision=$REVISION_UNSTABLE
+      -Dsonar.host.url=$SN_URL
+      -Dsonar.login=$SN_TOKEN
+      -Dsonar.password=""
+      -Dsonar.gitlab.project_id=$CI_PROJECT_PATH
+      -Dsonar.gitlab.ref_name=$CI_COMMIT_REF_NAME
+      -Dsonar.gitlab.commit_sha=$CI_COMMIT_SHA
+      -Dsonar.gitlab.failure_notification_mode=exit-code
+      -Dsonar.cpd.exclusions=**/model/**,**/dto/**
+      -Dsonar.java.binaries=target/classes
+      -Dsonar.dynamicAnalysis=reuseReports
+      -Dsonar.java.coveragePlugin=jacoco
+      -Dsonar.coverage.jacoco.xmlReportPaths=target/site/jacoco/jacoco.xml
+      -Dsonar.issue.ignore.multicriteria=e1
+      -Dsonar.issue.ignore.multicriteria.e1.ruleKey=java:S2699
+      -Dsonar.issue.ignore.multicriteria.e1.resourceKey=**/test/**/*.java
+      -Dsonar.coverage.exclusions=**/dto/**,**/auth/**,**/model/**,**/util/CookieUtils.java,**/util/email/**,**/property/**,**/security/WebSecurity.java,**/controller/PaymentController.java,**/event/handler/AuditListener.java
+
+package:
+  stage: package
+  script: mvn package -DskipTests
+  only:
+    - develop
+    - master
+  artifacts:
+    expire_in: 1 hour
+    paths:
+      - target
+
+deploy_test:
+  stage: deploy_test
+  only:
+    - develop
+  image: docker
+  script:
+    - docker login -u $HB_USER -p $HB_PASS $Server_HOST
+    - docker build . -t $IMG_TEST:latest -t $IMG_TEST:$CI_COMMIT_SHA
+    - docker push $IMG_TEST:latest
+    - docker push $IMG_TEST:$CI_COMMIT_SHA
+
+deploy_prod:
+  stage: deploy_prod
+  only:
+    - master
+  image: docker
+  script:
+    - docker login -u $HB_USER -p $HB_PASS $Server_HOST
+    - docker build . -t $IMG_PROD:latest -t $IMG_PROD:$CI_COMMIT_SHA
+    - docker push $IMG_PROD:latest
+    - docker push $IMG_PROD:$CI_COMMIT_SHA

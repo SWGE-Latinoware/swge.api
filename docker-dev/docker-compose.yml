@@ -1,0 +1,28 @@
+version: "3.9"
+services:
+  db:
+    image: postgres
+    container_name: postgres_db_1
+    restart: always
+    ports:
+      - "5432:5432"
+    network_mode: bridge
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: root1234
+      POSTGRES_DB: database
+    volumes:
+      - ./data/database/postgres:/var/lib/postgresql/data
+  db2:
+    image: postgres
+    container_name: postgres_db_2
+    restart: always
+    ports:
+      - "5433:5432"
+    network_mode: bridge
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: root1234
+      POSTGRES_DB: database
+    volumes:
+      - ./data/database/postgres2:/var/lib/postgresql/data
