@@ -3,7 +3,7 @@
 Back-end responsável pelas regras de negócio do sistema de gestão de eventos.
 
 ## Instalação
-Para a utilização da API deve ser necessário possuir na máquina a qual vai armazenar e executar o projeto certos serviços, que são indicados na seção de Requisitos.
+Para a utilização da API, é necessário possuir na máquina a qual vai armazenar e executar o projeto certos serviços, que são indicados na seção de Requisitos.
 
 A partir de *clone* (`git clone https://github.com/ta-iot/swge.api.git`), é necessário a execução da instalação dos módulos escolhidos dentro do arquivo `pom.xml`. 
 
