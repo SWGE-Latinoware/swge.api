@@ -1,7 +1,7 @@
 <picture>
-  <img src="/metrics.plugin.licenses.svg" alt="Licenças">
+  <img align="center" src="/metrics.plugin.licenses.svg" alt="Licenças">
 </picture>
-![Repositórios Vinculados](/metrics.plugin.repositories.svg)
+<img align="center" src="/metrics.plugin.repositories.svg" alt="Repositórios Vinculados">
 
 # __API Sistema Web Gerenciador de Eventos__
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
