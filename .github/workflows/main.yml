@@ -40,7 +40,5 @@ jobs:
           filename: metrics.plugin.repositories.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
-          repo: swge.api
-          user: ta-iot
           plugin_repositories: yes
           plugin_repositories_featured: ta-iot/swge.web
