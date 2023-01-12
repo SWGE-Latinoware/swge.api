@@ -107,3 +107,5 @@ Caso tenha a necessidade ou curiosidade de adicionar a metodologia DevOps de Int
 <a href="https://github.com/ta-iot/swge.api/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=ta-iot/swge.api" />
 </a>
+
+![example event parameter](https://github.com/github/docs/actions/workflows/main.yml)
