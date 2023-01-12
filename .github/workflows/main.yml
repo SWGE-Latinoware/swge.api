@@ -1,0 +1,12 @@
+name: Contributors and sponsors
+uses: lowlighter/metrics@latest
+with:
+  filename: metrics.plugin.people.repository.svg
+  token: ${{ secrets.METRICS_TOKEN }}
+  base: ""
+  template: repository
+  repo: swge.api
+  user: ta-iot
+  plugin_people: yes
+  plugin_people_types: contributors
+  plugin_people_thanks: [RafaelBraz]
