@@ -108,4 +108,4 @@ Caso tenha a necessidade ou curiosidade de adicionar a metodologia DevOps de Int
   <img src="https://contrib.rocks/image?repo=ta-iot/swge.api" />
 </a>
 
-![https://github.com/ta-iot/swge.api/actions/workflows/metrics.yml](https://github.com/ta-iot/swge.api/blob/main/.github/workflows/metrics.yml)
+![Metrics](/metrics.plugin.people.repository.svg)
