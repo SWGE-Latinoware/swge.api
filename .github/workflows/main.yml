@@ -19,7 +19,8 @@ jobs:
           filename: metrics.plugin.people.repository.svg
           base: ""
           template: repository
-          repo: metrics
+          repo: swge.api
+          user: ta-iot
           plugin_people: yes
           plugin_people_types: contributors
           plugin_people_size: 36
