@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   workflow_call:
 jobs:
-  examples:
+  metric:
     runs-on: ubuntu-latest
     permissions:
       contents: write
