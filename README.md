@@ -2,7 +2,9 @@
   <picture>
     <img align="center" src="/metrics.plugin.licenses.svg" alt="Licenças">
   </picture>
-  <img align="center" src="/metrics.plugin.repositories.svg" alt="Repositórios Vinculados">
+  <a target="_blank" href="https://github.com/ta-iot/swge.web">
+    <img align="center" src="/metrics.plugin.repositories.svg" alt="Repositórios Vinculados">
+  </a>
 </div>
 
 # __API Sistema Web Gerenciador de Eventos__
