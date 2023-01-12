@@ -1,3 +1,4 @@
+[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
 # __API Sistema Web Gerenciador de Eventos__
 
 Back-end responsável pelas regras de negócio do sistema de gestão de eventos.
