@@ -7,7 +7,6 @@ on:
 jobs:
   examples:
     runs-on: ubuntu-latest
-    if: "github.repository == 'ta-iot/swge.api'"
     steps:
       - name: Contributors
         uses: lowlighter/metrics@latest
