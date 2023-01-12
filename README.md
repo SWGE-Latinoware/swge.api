@@ -113,4 +113,3 @@ Caso tenha a necessidade ou curiosidade de adicionar a metodologia DevOps de Int
 <picture>
   <img src="/metrics.plugin.people.repository.svg" alt="Colaboradores">
 </picture>
-
