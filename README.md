@@ -3,6 +3,9 @@
 
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
 
+![Licenças](/metrics.plugin.licenses.svg)
+![Repositório da Interface associada a esta API](/metrics.plugin.repositories.svg)
+
 # __API Sistema Web Gerenciador de Eventos__
 
 Back-end responsável pelas regras de negócio do sistema de gestão de eventos.
@@ -109,3 +112,4 @@ Caso tenha a necessidade ou curiosidade de adicionar a metodologia DevOps de Int
 </a>
 
 ![Metrics](/metrics.plugin.people.repository.svg)
+
