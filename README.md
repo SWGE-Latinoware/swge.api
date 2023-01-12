@@ -1,8 +1,9 @@
-<picture>
-  <img align="center" src="/metrics.plugin.licenses.svg" alt="Licenças">
-</picture>
-<img align="center" src="/metrics.plugin.repositories.svg" alt="Repositórios Vinculados">
-
+<div style="width:100%; display: flex; flex-direction: row; justify-content: center;">
+  <picture>
+    <img align="center" src="/metrics.plugin.licenses.svg" alt="Licenças">
+  </picture>
+  <img align="center" src="/metrics.plugin.repositories.svg" alt="Repositórios Vinculados">
+</div>
 # __API Sistema Web Gerenciador de Eventos__
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
 ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
