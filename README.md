@@ -108,9 +108,7 @@ Caso tenha a necessidade ou curiosidade de adicionar a metodologia DevOps de Int
 [^2]: Ambiente de uso real, onde todas os valores das cobranças vão ser deduzidas da conta e colocadas na conta de recebimento.
 
 ## Colaboradores ##
-<a href="https://github.com/ta-iot/swge.api/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ta-iot/swge.api" />
-</a>
-
-![Metrics](/metrics.plugin.people.repository.svg)
+<picture>
+  <img src="/metrics.plugin.people.repository.svg" alt="Colaboradores">
+</picture>
 
