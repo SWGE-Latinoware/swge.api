@@ -1,5 +1,9 @@
-![Licenças](/metrics.plugin.licenses.svg)
-![Repositório da Interface associada a esta API](/metrics.plugin.repositories.svg)
+<picture>
+  <img src="/metrics.plugin.licenses.svg" alt="Licenças">
+</picture>
+<picture>
+  <img src="/metrics.plugin.repositories.svg" alt="Repositórios Vinculados">
+</picture>
 
 # __API Sistema Web Gerenciador de Eventos__
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
