@@ -19,4 +19,4 @@ jobs:
           user: ta-iot
           plugin_people: yes
           plugin_people_types: contributors
-          plugin_people_thanks: 'RafaelBraz'
+          plugin_people_thanks: RafaelBraz
