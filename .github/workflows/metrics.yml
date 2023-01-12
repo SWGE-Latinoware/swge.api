@@ -7,6 +7,8 @@ on:
 jobs:
   examples:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Contributors
         uses: lowlighter/metrics@latest
