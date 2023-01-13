@@ -116,7 +116,5 @@ Caso tenha a necessidade ou curiosidade de adicionar a metodologia DevOps de Int
 </picture>
 
 ## Parceria
-<div style="background: #ccc">
-  <img src="/.github/logos/PTI-Logo.png" alt="PTI">
-  <img src="/.github/logos/IB-Logo.png" alt="IB">
-</div>
+<img src="/.github/logos/PTI-Logo.png" alt="PTI" width="200">
+<img src="/.github/logos/IB-Logo.png" alt="IB"  width="200">
