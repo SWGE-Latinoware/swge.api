@@ -1,4 +1,15 @@
+<div style="width:100%; display: flex; flex-direction: row; justify-content: center;">
+  <picture>
+    <img align="center" src="/metrics.plugin.licenses.svg" alt="Licenças">
+  </picture>
+  <a target="_blank" href="https://github.com/ta-iot/swge.web">
+    <img align="center" src="/metrics.plugin.repositories.svg" alt="Repositórios Vinculados">
+  </a>
+</div>
+
 # __API Sistema Web Gerenciador de Eventos__
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
+![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
 
 Back-end responsável pelas regras de negócio do sistema de gestão de eventos.
 
@@ -7,7 +18,8 @@ Para a utilização da API, é necessário possuir na máquina a qual vai armaze
 
 A partir de *clone* (`git clone https://github.com/ta-iot/swge.api.git`), é necessário a execução da instalação dos módulos escolhidos dentro do arquivo `pom.xml`. 
 
-### Requisitos:
+### Requisitos: ###
+
 - Docker;
   - Docker Compose.
 - PostgreSQL;
@@ -95,10 +107,10 @@ Caso tenha a necessidade ou curiosidade de adicionar a metodologia DevOps de Int
 - __$IMG_TEST__: URL do diretório de arquivos para armazenar as imagens do projeto quando o ciclo está em desenvolvimento;
 - __$IMG_PRO__: URL do diretório de arquivos para armazenar as imagens do projeto quando o ciclo está em produção.
 
-[^1]: Ambiente de teste a qual não reconhece a cobrança como uma cobrança real, não sendo feito a dedução do valor na conta. Para esses ambientes, ambas as APIs fornecem contas ou cartões de teste para a simulação. O PayPal disponibiliza contas de teste que possuem cartões atrelado a conta, é possível saber essas contas atráves deste [link](https://developer.paypal.com/dashboard/accounts), onde é apresentado duas contas de teste, sendo uma o comerciante e outra o cliente(a que deve ser usada). Já para o PagSeguro neste [link](https://dev.pagseguro.uol.com.br/reference/testing-cards) possui cartões de teste para a realização de cobranças de teste.
+[^1]: Ambiente de teste a qual não reconhece a cobrança como uma cobrança real, não sendo feito a dedução do valor na conta. Para esses ambientes, ambas as APIs fornecem contas ou cartões de teste para a simulação. O PayPal disponibiliza contas de teste que possuem cartões atrelado a conta, é possível saber essas contas atráves deste [link](https://developer.paypal.com/dashboard/accounts), onde é apresentado duas contas de teste, sendo uma o comerciante e outra o cliente(a que deve ser utilizada). Já para o PagSeguro neste [link](https://dev.pagseguro.uol.com.br/reference/testing-cards) possui cartões de teste para a realização de cobranças de teste.
 [^2]: Ambiente de uso real, onde todas os valores das cobranças vão ser deduzidas da conta e colocadas na conta de recebimento.
 
 ## Colaboradores ##
-<a href="https://github.com/ta-iot/swge.api/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ta-iot/swge.api" />
-</a>
+<picture>
+  <img src="/metrics.plugin.people.repository.svg" alt="Colaboradores">
+</picture>
