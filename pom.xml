@@ -10,7 +10,7 @@
   </parent>
   <groupId>celtab</groupId>
   <artifactId>swge</artifactId>
-  <version>0.2.66</version>
+  <version>0.2.67</version>
   <name>swge.api</name>
   <description>Back-end responsável pelas regras de negócio do sistema de gestão de eventos</description>
   <properties>
