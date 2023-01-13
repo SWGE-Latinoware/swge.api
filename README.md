@@ -116,4 +116,4 @@ Caso tenha a necessidade ou curiosidade de adicionar a metodologia DevOps de Int
 </picture>
 
 ## Parceria
-<img src="/.github/logos/PTI-Logo.png" alt="PTI" width="300"><img src="/.github/logos/IB-Logo.png" alt="IB"  width="250">
+<img src="/.github/logos/PTI-Logo.png" alt="PTI" width="300"><img src="/.github/logos/IB-Logo.png" alt="IB"  width="300">
