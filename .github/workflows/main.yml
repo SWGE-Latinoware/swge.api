@@ -22,8 +22,9 @@ jobs:
           repo: swge.api
           user: ta-iot
           plugin_people: yes
-          plugin_people_types: contributors
+          plugin_people_types: contributors, thanks
           plugin_people_size: 64
+          plugin_people_thanks: RafaelSantosBraz
       - name: Licenses and permissions
         uses: lowlighter/metrics@latest
         with:
