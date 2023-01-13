@@ -114,3 +114,9 @@ Caso tenha a necessidade ou curiosidade de adicionar a metodologia DevOps de Int
 <picture>
   <img src="/metrics.plugin.people.repository.svg" alt="Colaboradores">
 </picture>
+
+## Parceria
+<div style="background: #ccc">
+  <img src="/.github/logos/PTI-Logo.png" alt="PTI">
+  <img src="/.github/logos/IB-Logo.png" alt="IB">
+</div>
