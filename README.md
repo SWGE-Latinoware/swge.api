@@ -2,7 +2,7 @@
   <picture>
     <img align="center" src="/metrics.plugin.licenses.svg" alt="Licenças">
   </picture>
-  <a target="_blank" href="https://github.com/ta-iot/swge.web">
+  <a target="_blank" href="https://github.com/SWGE-Latinoware/swge.web">
     <img align="center" src="/metrics.plugin.repositories.svg" alt="Repositórios Vinculados">
   </a>
 </div>
@@ -19,7 +19,7 @@ Back-end responsável pelas regras de negócio do sistema de gestão de eventos.
 ## Instalação
 Para a utilização da API, é necessário possuir na máquina a qual vai armazenar e executar o projeto certos serviços, que são indicados na seção de Requisitos.
 
-A partir de *clone* (`git clone https://github.com/ta-iot/swge.api.git`), é necessário a execução da instalação dos módulos escolhidos dentro do arquivo `pom.xml`. 
+A partir de *clone* (`git clone https://github.com/SWGE-Latinoware/swge.api.git`), é necessário a execução da instalação dos módulos escolhidos dentro do arquivo `pom.xml`. 
 
 ### Requisitos: ###
 
